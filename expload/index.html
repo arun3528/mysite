@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>expload</title>
+    <link rel='stylesheet' href='style.css' />
+
+</head>
+<body style="background: url(images/Angry.png) no-repeat 0 50%">
+   
+    <img id="img1" src="images/rainbow.jpg" style="display: none;">
+    <img id="start" src="images/start.png" style="display: none;">
+    <div id="divgame">
+        <div id="txtScore">Score: 0</div>
+            <div id="txtTarget">Target: 0</div>
+            <div id="txtTime">Time left: 0</div>
+        <div id="txtLevel">Level: 0</div>
+     
+    </div>
+    
+    <canvas id="maincanvus" width='600' height='600'></canvas>
+   <audio id="theme" src="sounds/theme.wav" autoplay loop></audio>
+    <audio id="blast" src="sounds/pops.wav"></audio>
+
+    <script src="js/jquery-2.0.3.js"></script>
+    <script src="js/Main.js"></script>
+</body>
+</html>

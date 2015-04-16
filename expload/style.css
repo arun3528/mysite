@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: 'Arizonia';
+    src: url('fonts/Arizonia-Regular.ttf');
+}
+
+#txtScore {
+    font-family: 'Arizonia';
+    font-size: 20px;
+    color: blue;
+    text-align: left;
+    margin-left: 10px;
+    display: inline;
+}
+
+
+
+#txtLevel {
+    font-family: 'Arizonia';
+    font-size: 20px;
+    color: blue;
+    display: inline;
+    float: right;
+    margin-right: 10px;
+}
+
+
+#txtTarget,#txtTime{
+    font-family: 'Arizonia';
+    font-size: 20px;
+    color: red;
+    display: inline;
+    padding-left:5%;
+  
+}
+
+#divgame {
+   margin-top:10px;
+}
+
+#maincanvus {
+    display: block;
+    margin: auto;
+    /*border: 1px solid black;*/
+    
+}
+#Canvas1 {
+     display: block;
+     margin: auto;
+     border: 1px solid black;
+     position:absolute;
+}
